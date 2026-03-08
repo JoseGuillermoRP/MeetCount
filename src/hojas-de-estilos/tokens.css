@@ -1,0 +1,89 @@
+/* =========================
+   DESIGN TOKENS (JR UI)
+   ========================= */
+:root {
+  /* --- Brand / Primary --- */
+  --color-primary-500: #3b82f6; /* botón +1 */
+  --color-primary-600: #2563eb; /* hover */
+  --color-primary-700: #1d4ed8; /* pressed */
+  --color-accent-400:  #60a5fa; /* glow / highlights */
+
+  /* --- Backgrounds --- */
+  --color-bg-900: #0b1026;      /* fondo principal */
+  --color-bg-850: #111a3a;      /* gradiente medio */
+  --color-bg-800: #1a2a5a;      /* gradiente alto */
+
+  /* --- Surfaces (cards/modals) --- */
+  --color-surface-800: #1a1f3a; /* tarjetas */
+  --color-surface-700: #232a4a; /* elevación */
+  --color-border-600:  #2a2f4f; /* bordes sutiles */
+
+  /* --- Text --- */
+  --color-text-100: #ffff;    /* principal */
+  --color-text-300: #a0aec0;    /* secundario */
+  --color-text-500: #6b7280;    /* placeholder / tertiary */
+  --color-text-700: rgba(255,255,255,0.8);    /* color label-contador-con opacidad */
+  /* --- Semantic --- */
+  --color-success-500: #25d366; /* whatsapp */
+  --color-danger-500:  #ef4444; /* reiniciar */
+  --color-warning-500: #f59e0b; /* alert (opcional) */
+
+  /* --- Opacities for glass --- */
+  --glass-surface: rgba(26, 31, 58, 0.72);
+  --glass-surface-2: rgba(35, 42, 74, 0.65);
+  
+
+  /* --- Typography --- */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  --text-xs: 0.75em;
+--text-sm: 0.875em;
+--text-md: 1em;
+--text-lg: 1.25em;
+--text-xl: 1.5em;
+--text-2xl: 2em;
+--text-hero: 4.5em; /* número grande */
+
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semibold:600;
+  --weight-bold:    700;
+
+  --line-tight: 1.1;
+  --line-normal: 1.5;
+
+  /* --- Radius --- */
+  --radius-sm: 12px;
+  --radius-md: 16px; /* cards */
+  --radius-lg: 20px; /* botones grandes */
+  --radius-xl: 28px; /* modal */
+
+  /* --- Spacing (8pt system) --- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* --- Shadows / Glows --- */
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --glow-primary: 0 0 22px rgba(59, 130, 246, 0.55);
+  --glow-accent:  0 0 26px rgba(96, 165, 250, 0.45);
+
+  /* --- Focus ring --- */
+  --focus-ring: 0 0 0 3px rgba(96, 165, 250, 0.35);
+
+  /* --- Gradients --- */
+  --gradient-bg: radial-gradient(1200px 800px at 50% 10%,
+    var(--color-bg-800) 0%,
+    var(--color-bg-850) 35%,
+    var(--color-bg-900) 100%
+  );
+
+  --gradient-primary: linear-gradient(180deg,
+    #4f8cff 0%,
+    var(--color-primary-600) 100%
+  );
+}

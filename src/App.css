@@ -1,7 +1,21 @@
+@import './hojas-de-estilos/tokens.css';
+  
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
-.App {
+html,body{
+  height: 100%;
+}
+body{
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-md);
+  line-height: var(--line-normal);
+  color: var(--color-text-100);
+  background: var(--gradient-bg);
+}
 
+
+.App {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -10,33 +24,43 @@
   font-family: Lato, sans-serif;
 }
 
-html,body{
-  background-color: #1b1b32;
-}
 
 .logo-contenedor{
-  width: 100%;
-  height: 15em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- margin:0;
- margin-bottom: 20px;
-  padding: 0;
-  background-color: aliceblue;
+margin-top: 0.7rem;
+ width: 100%;
+ display: flex;
+flex-direction: column;
+align-items: center;
+}
+.logo-contenedor h1{
+  margin-left: 12px;
+  color: var(--color-text-100);
+  font-size:var(--text-md);
+  font-family: var(--font-sans);
 }
 .jose-logo{
-  height: 30em;
+  height: 2em;
   
 }
 .contenedor-principal{
-  height: 550px;
-  min-width: 600px;
+  min-height: 100%;
+  max-width: 320px;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 1em;
+  padding: 12px 16px 24px;
+}
+
+.card {
+  background: var(--glass-surface);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(10px);
+  padding: 1em 2em;
 }
 /* ===== MODAL (POPUP) ===== */
 .modal-overlay{
@@ -115,4 +139,31 @@ html,body{
 .modal-btn.danger{
   background: #dc2626;
   color: #fff;
+}
+.evento-barra{
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 18px;
+}
+
+.evento-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.evento-titulo{
+  font-size: 1rem;
+  color: var(--color-text-100);
+  line-height: 1.2;
+}
+
+.evento-fecha{
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.78);
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }

@@ -1,6 +1,6 @@
 import './App.css';
 import Boton from './componentes/Boton';
-import joseLogo from './Imagenes/LogoJoserojas.png';
+import joseLogo from './Imagenes/LogoJR.png';
 import Contador from './componentes/Contador';
 import { useEffect, useMemo, useState } from 'react';
 
@@ -122,28 +122,38 @@ function App() {
       {/* Header / Marca */}
       <div className="logo-contenedor">
         <img className="jose-logo" src={joseLogo} alt="Logo de Jose" />
+        <h1 className="app-title">CONTADOR DE ASISTENTES</h1>
       </div>
 
       <div className="contenedor-principal">
         {/* Info del evento */}
-        <div className="evento-barra">
-          <div className="evento-texto">
-            <div className="evento-titulo">
-              Evento: <strong>{nombreEvento.trim() ? nombreEvento : '—'}</strong>
-            </div>
-            <div className="evento-fecha">Hoy · {fechaUI}</div>
-          </div>
+        <div className="card evento-barra">
 
-          <button className="evento-cambiar" onClick={abrirEditarEvento} type="button">
-            Cambiar
-          </button>
-        </div>
+  <div className="evento-top">
+    <div className="evento-titulo">
+      Evento: <strong>{nombreEvento.trim() ? nombreEvento : '—'}</strong>
+    </div>
+
+    <button
+      className="btn-outline"
+      onClick={abrirEditarEvento}
+      type="button"
+    >
+      ✎ Cambiar
+    </button>
+  </div>
+
+  <div className="evento-fecha">
+    Hoy · {fechaUI}
+  </div>
+
+</div>
 
         {/* Contador */}
         <Contador numClics={numClics} />
 
         {/* Botón principal */}
-        <Boton
+        <Boton 
           texto="+1 Contar"
           esBotonDeClic={true}
           manejarClic={manejarClic}
