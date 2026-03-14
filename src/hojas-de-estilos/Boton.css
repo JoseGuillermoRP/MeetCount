@@ -11,7 +11,7 @@ button{
   font-weight: var(--weight-semibold);
   cursor: pointer;
   user-select: none;
-  transition: transform 120ms ease, filter 120ms ease, background 120ms ease, opacity 120ms ease;
+  transition: all 160ms ease;
 }
 
 button:active{
@@ -19,20 +19,40 @@ button:active{
 }
 /* Primary */
 .btn--primary {
-  background: var(--gradient-primary);
+   background: var(--gradient-primary);
   color: var(--color-text-100);
   box-shadow: var(--glow-primary);
+  width: 320px;
+  max-width: 315px;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: var(--radius-xl);
+}
+ .btn--primary  .btn-numero{
+  font-size: var(--text-2xl);
+}
+.btn-texto{
+  font-size: var(--text-md);
 }
 .btn--primary:hover { filter: brightness(1.05); }
-.btn--primary:active { background: var(--color-primary-700); }
+.btn--primary:active { background: var(--color-primary-700); transform: scale(0.98); }
 
 /* Secondary / neutral */
 .btn--secondary {
   background: rgba(42,47,79,0.65);
   color: var(--color-text-300);
   border-color: rgba(255,255,255,0.08);
+  padding: 16px 24px;
+  min-width: 150px;
+
 }
-.btn--secondary:hover { filter: brightness(1.07); }
+
+
+.btn--secondary:hover { filter: brightness(1.07); transform: translateY(-2px); }
 
 
 /* Boton Outline */
@@ -67,4 +87,14 @@ button:active{
   opacity: 0.45;
   cursor: not-allowed;
   box-shadow: none;
+}
+
+.contenedor-botones{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+.btn-reset{
+  color: var(--color-danger-500);
 }

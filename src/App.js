@@ -127,21 +127,21 @@ function App() {
 
       <div className="contenedor-principal">
         {/* Info del evento */}
-        <div className="card evento-barra">
+<div className="card evento-barra">
 
-  <div className="evento-top">
-    <div className="evento-titulo">
-      Evento: <strong>{nombreEvento.trim() ? nombreEvento : '—'}</strong>
-    </div>
+        <div className="evento-top">
+            <div className="evento-titulo">
+             Evento: <strong>{nombreEvento.trim() ? nombreEvento : '—'}</strong>
+            </div>
 
-    <button
-      className="btn-outline"
-      onClick={abrirEditarEvento}
-      type="button"
-    >
-      ✎ Cambiar
-    </button>
-  </div>
+            <button
+               className="btn-outline"
+               onClick={abrirEditarEvento}
+             type="button"
+          >
+              ✎ Cambiar
+            </button>
+        </div>
 
   <div className="evento-fecha">
     Hoy · {fechaUI}
@@ -158,8 +158,9 @@ function App() {
           esBotonDeClic={true}
           manejarClic={manejarClic}
         />
+      <div className="contenedor-botones">
 
-        {/* Acciones secundarias */}
+         {/* Acciones secundarias */}
         {numClics > 0 && (
           <Boton
             texto="Enviar por WhatsApp"
@@ -173,8 +174,13 @@ function App() {
             texto="Reiniciar"
             esBotonDeClic={false}
             manejarClic={solicitarReinicio}
+            className="btn-reset"
           />
         )}
+
+
+        </div>
+       
       </div>
 
       {/* MODAL INICIAL: Nombre del evento */}
