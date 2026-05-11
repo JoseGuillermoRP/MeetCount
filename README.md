@@ -453,14 +453,7 @@ Hecho con ❤️ y ☕ en Lima, Perú
 
 ---
 
-## 📊 Stats del proyecto
 
-![GitHub stars](https://img.shields.io/github/stars/tuusuario/contador-de-asistentes?style=social)
-![GitHub forks](https://img.shields.io/github/forks/tuusuario/contador-de-asistentes?style=social)
-![GitHub issues](https://img.shields.io/github/issues/tuusuario/contador-de-asistentes)
-![GitHub last commit](https://img.shields.io/github/last-commit/tuusuario/contador-de-asistentes)
-
----
 
 **Versión:** 1.0.0  
 **Última actualización:** Mayo 2026  
