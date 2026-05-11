@@ -37,22 +37,24 @@ Contador de Asistentes es una Progressive Web App (PWA) diseñada para facilitar
 <div align="center">
 
 ### Vista Principal
-![Screenshot Principal](./screenshots/main-screen.png)
+<img width="484" height="944" alt="image" src="https://github.com/user-attachments/assets/d26ed2ef-d6f3-4dab-9d79-775afc482135" />
+
 
 ### Contador Activo
-![Screenshot Contador](./screenshots/contador.png)
+<img width="489" height="936" alt="image" src="https://github.com/user-attachments/assets/c6423abb-5107-4e47-81db-698b22fa26b6" />
+
 
 ### Modal de Evento
-![Screenshot Modal](./screenshots/modal-evento.png)
+<img width="485" height="923" alt="image" src="https://github.com/user-attachments/assets/01885195-271b-47d6-be68-9ed021707ec6" />
+
 
 ### Reporte WhatsApp
-![Screenshot WhatsApp](./screenshots/whatsapp-share.png)
+<img width="460" height="467" alt="image" src="https://github.com/user-attachments/assets/7166c988-78c1-45ea-96c1-997c6cf32cae" />
+
 
 </div>
 
-> **Nota:** Agrega tus propios screenshots en la carpeta `screenshots/`
-
----
+> 
 
 ## 🚀 Tecnologías utilizadas
 
@@ -345,16 +347,9 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ```
 MIT License
 
-Copyright (c) 2026 José Rojas (SoftStudio)
+Derechos de Autor (c) 2026 José Rojas (SoftStudio). TODOS LOS DERECHOS RESERVADOS.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-[Texto completo de MIT License]
+El acceso a este código fuente se otorga exclusivamente con fines de visualización, evaluación técnica o auditoría. Queda estrictamente prohibida la reproducción, distribución, modificación o cualquier otro uso de este software sin el consentimiento previo y por escrito del autor.
 ```
 
 ---
@@ -363,16 +358,14 @@ furnished to do so, subject to the following conditions:
 
 **José Rojas** - [@SoftStudio](https://github.com/tuusuario)
 
-- 💼 [Portfolio](#) (próximamente)
-- 📧 Email: tu@email.com
-- 💬 WhatsApp: [+51 TU NUMERO](https://wa.me/51TUNUMERO)
-- 🌐 Web: softstudio.dev (en desarrollo)
 
+- 📧 Email: joserojasdesign92@gmail.com
+- 🌐Instagram:https://www.instagram.com/joserojas.code/
 ---
 
 ## 🙏 Agradecimientos
 
-- Diseñado para comunidades e iglesias que necesitan herramientas simples y efectivas
+- Diseñado para comunidades que necesitan herramientas simples y efectivas
 - Inspirado en el feedback de coordinadores de eventos
 - Desarrollado con ❤️ en Lima, Perú
 
@@ -444,13 +437,13 @@ Una vez implementada la funcionalidad PWA:
 - Integraciones con APIs
 - Automatizaciones
 
-[Contáctame por WhatsApp](https://wa.me/51TUNUMERO?text=Hola%20José%2C%20vi%20tu%20app%20de%20contador%20y%20me%20gustaría%20conversar%20sobre%20un%20proyecto) para conversar sobre tu proyecto.
+[Contáctame por WhatsApp](https://wa.me/51969198897?text=Hola%20José%2C%20vi%20tu%20app%20de%20contador%20y%20me%20gustaría%20conversar%20sobre%20un%20proyecto) para conversar sobre tu proyecto.
 
 ---
 
 <div align="center">
 
-**Desarrollado por [SoftStudio](https://softstudio.dev)** 
+**Desarrollado por Jose Rojas** 
 
 Hecho con ❤️ y ☕ en Lima, Perú
 
