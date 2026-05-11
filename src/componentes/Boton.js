@@ -8,7 +8,7 @@ function Boton({ texto, esBotonDeClic, manejarClic, className }) {
 
   return (
     <button
-      className={`${esBotonDeClic ? "btn--primary" : "btn--secondary"} ${className || ""}`}
+      className={className || (esBotonDeClic ? "btn--primary" : "btn--secondary")}
       onClick={manejarClic}
     >
       {esBotonDeClic ? (

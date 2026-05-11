@@ -98,3 +98,45 @@ button:active{
 .btn-reset{
   color: var(--color-danger-500);
 }
+/* ========================================
+   ESTILOS PARA BOTÓN DECREMENTAR (-1)
+   Agregar este código a tu Boton.css existente
+   ======================================== */
+
+/* Botón de decrementar */
+.btn--decrement {
+  background: var( --color-danger-bg);
+  color: var(--color-danger-500);
+  border-color:1px solid var(--color-danger-border);
+  padding: 16px 48px;
+  min-width: 200px;
+  max-width: 320px;
+  margin-top: 12px;
+  font-size: var(--text-xl);
+  font-weight: var(--weight-semibold);
+  
+  /* Animación de aparición */
+  animation: fadeInUp 240ms ease-out;
+}
+
+.btn--decrement:hover {
+  filter: brightness(1.08);
+  transform: translateY(-2px);
+}
+
+.btn--decrement:active {
+  transform: translateY(1px);
+  filter: brightness(0.95);
+}
+
+/* Animación de entrada suave */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

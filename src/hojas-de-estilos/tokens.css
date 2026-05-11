@@ -13,6 +13,7 @@
   --color-bg-850: #111a3a;      /* gradiente medio */
   --color-bg-800: #1a2a5a;      /* gradiente alto */
 
+
   /* --- Surfaces (cards/modals) --- */
   --color-surface-800: #1a1f3a; /* tarjetas */
   --color-surface-700: #232a4a; /* elevación */
@@ -26,7 +27,10 @@
   /* --- Semantic --- */
   --color-success-500: #25d366; /* whatsapp */
   --color-danger-500:  #ef4444; /* reiniciar */
+  --color-danger-bg:rgba(239,68,68,0.18); /* fondo de alerta */
+  --color-danger-border:rgba(239,68,68,0.4); /* borde de alerta */
   --color-warning-500: #f59e0b; /* alert (opcional) */
+  
 
   /* --- Opacities for glass --- */
   --glass-surface: rgba(26, 31, 58, 0.72);
