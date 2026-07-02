@@ -110,21 +110,21 @@ Accede a la versión en vivo y comienza a contar asistentes sin instalar nada:
 - **Modales reutilizables** - Confirmaciones y formularios consistentes
 - **Sistema de eventos** - Gestión de interacciones del usuario
 ---
-##**🧠 Enfoque de Diseño y UX**
+## 🧠 Enfoque de Diseño UX
 
 El desarrollo de MeetCount no nació de una especulación, sino de una necesidad operativa real observada en entornos comunitarios. Como usuario y participante activo en la contabilización de asistencia (actividades de la iglesia, conferencias y reuniones), identifiqué fricciones comunes en los procesos tradicionales de reporte.
 
 Esta base empática se tradujo en decisiones de diseño fundamentadas en principios de usabilidad móvil para contextos de alta distracción:
 
--**Diseño Mobile-First:** Priorización de áreas táctiles grandes (Boton.js) para evitar errores de clic en eventos masivos.
+- **Diseño Mobile-First:** Priorización de áreas táctiles grandes (Boton.js) para evitar errores de clic en eventos masivos.
 
--**Arquitectura de Información:** Jerarquía visual clara que reduce la carga cognitiva al usuario durante el conteo rápido.
+- **Arquitectura de Información:** Jerarquía visual clara que reduce la carga cognitiva al usuario durante el conteo rápido.
 
--**Feedback Visual:** Implementación de interacciones sutiles que confirman la acción sin interrumpir el flujo del usuario.
+- **Feedback Visual:** Implementación de interacciones sutiles que confirman la acción sin interrumpir el flujo del usuario.
 
--**Accesibilidad y Consistencia:** Uso de un sistema de diseño propio para asegurar una experiencia uniforme y legible en cualquier entorno.
+- **Accesibilidad y Consistencia:** Uso de un sistema de diseño propio para asegurar una experiencia uniforme y legible en cualquier entorno.
 
--**Filosofía técnica:** Sistema de Diseño "Code-First"
+- **Filosofía técnica:** Sistema de Diseño "Code-First"
 En lugar de depender de herramientas externas como Figma, el sistema de diseño fue arquitecturado directamente en CSS mediante Design Tokens. Esto permite una escalabilidad real y un mantenimiento eficiente:
 
 **Codigo css**
