@@ -83,8 +83,10 @@ Contador de Asistentes es una Progressive Web App (PWA) diseñada para facilitar
 
 ---
 
-##🚀 **¿Quieres usar la aplicación ahora mismo?**
+## 🚀 ¿Quieres usar la aplicación ahora mismo?
+
 Accede a la versión en vivo y comienza a contar asistentes sin instalar nada:
+
 [👉 Probar Contador de Asistentes](https://meet-count.vercel.app)
 
 
