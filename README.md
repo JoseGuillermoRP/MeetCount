@@ -8,7 +8,7 @@
 
 **Aplicación web para registro rápido y eficiente de asistencia a eventos, reuniones y actividades.**
 
-[Demo en vivo](#) • [Reportar Bug](https://wa.me/51TUNUMERO) • [Solicitar Feature](https://wa.me/51TUNUMERO)
+[Demo en vivo](https://meet-count.vercel.app/) • [Reportar Bug](https://wa.me/51TUNUMERO) • [Solicitar Feature](https://wa.me/51TUNUMERO)
 
 </div>
 
@@ -55,6 +55,37 @@ Contador de Asistentes es una Progressive Web App (PWA) diseñada para facilitar
 </div>
 
 > 
+---
+
+## 🎮 Uso
+
+### Flujo básico
+
+1. **Primera vez:** La app te pedirá nombrar el evento
+2. **Contar asistentes:** Toca el botón `+1 Contar`
+3. **Ajustar (opcional):** Cuando llegues a 3 o más, aparece el botón `-1` para corregir
+4. **Compartir:** Envía el reporte por WhatsApp con fecha, hora y total de asistentes
+5. **Reiniciar:** Cuando termines, reinicia el contador para el próximo evento
+
+### Funcionalidades avanzadas
+
+#### Cambiar nombre del evento
+- Toca el botón "✎ Cambiar" junto al nombre del evento
+- Útil para reutilizar la app en diferentes actividades
+
+#### Persistencia de datos
+- Los datos se guardan automáticamente
+- Puedes cerrar la app y al regresar todo estará como lo dejaste
+
+#### Decrementar contador
+- Aparece solo cuando hay 3 o más asistentes
+- Útil para corregir errores sin reiniciar
+
+---
+🚀 **¿Quieres usar la aplicación ahora mismo?**
+Accede a la versión en vivo y comienza a contar asistentes sin instalar nada:
+[👉 Probar Contador de Asistentes](https://meet-count.vercel.app)
+---
 
 ## 🚀 Tecnologías utilizadas
 
@@ -75,10 +106,32 @@ Contador de Asistentes es una Progressive Web App (PWA) diseñada para facilitar
 - **Estado global con Context** - Gestión centralizada del estado
 - **Modales reutilizables** - Confirmaciones y formularios consistentes
 - **Sistema de eventos** - Gestión de interacciones del usuario
+---
+**🧠 Enfoque de Diseño y UX**
+El desarrollo de MeetCount no nació de una especulación, sino de una necesidad operativa real observada en entornos comunitarios. Como usuario y participante activo en la contabilización de asistencia (actividades de la iglesia, conferencias y reuniones), identifiqué fricciones comunes en los procesos tradicionales de reporte.
 
+Esta base empática se tradujo en decisiones de diseño fundamentadas en principios de usabilidad móvil para contextos de alta distracción:
+
+**Diseño Mobile-First:** Priorización de áreas táctiles grandes (Boton.js) para evitar errores de clic en eventos masivos.
+
+**Arquitectura de Información:** Jerarquía visual clara que reduce la carga cognitiva al usuario durante el conteo rápido.
+
+**Feedback Visual:** Implementación de interacciones sutiles que confirman la acción sin interrumpir el flujo del usuario.
+
+**Accesibilidad y Consistencia:** Uso de un sistema de diseño propio para asegurar una experiencia uniforme y legible en cualquier entorno.
+
+**Filosofía técnica:** Sistema de Diseño "Code-First"
+En lugar de depender de herramientas externas como Figma, el sistema de diseño fue arquitecturado directamente en CSS mediante Design Tokens. Esto permite una escalabilidad real y un mantenimiento eficiente:
+
+/* Ejemplo de la arquitectura de tokens (tokens.css) */
+:root {
+  --color-primary-500: #3b82f6; /* Botón principal optimizado */
+  --text-hero: 4.5em;          /* Escala tipográfica para visibilidad */
+  --radius-xl: 28px;           /* Formas amigables para interacción táctil */
+}
 ---
 
-## 📦 Instalación
+##  🛠️ Configuración para Desarrolladores
 
 ### Prerrequisitos
 
@@ -118,33 +171,7 @@ yarn build
 
 Los archivos optimizados estarán en la carpeta `build/`
 
----
 
-## 🎮 Uso
-
-### Flujo básico
-
-1. **Primera vez:** La app te pedirá nombrar el evento
-2. **Contar asistentes:** Toca el botón `+1 Contar`
-3. **Ajustar (opcional):** Cuando llegues a 3 o más, aparece el botón `-1` para corregir
-4. **Compartir:** Envía el reporte por WhatsApp con fecha, hora y total de asistentes
-5. **Reiniciar:** Cuando termines, reinicia el contador para el próximo evento
-
-### Funcionalidades avanzadas
-
-#### Cambiar nombre del evento
-- Toca el botón "✎ Cambiar" junto al nombre del evento
-- Útil para reutilizar la app en diferentes actividades
-
-#### Persistencia de datos
-- Los datos se guardan automáticamente
-- Puedes cerrar la app y al regresar todo estará como lo dejaste
-
-#### Decrementar contador
-- Aparece solo cuando hay 3 o más asistentes
-- Útil para corregir errores sin reiniciar
-
----
 
 ## 📂 Estructura del proyecto
 
@@ -347,16 +374,19 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ```
 MIT License
 
-Derechos de Autor (c) 2026 José Rojas (SoftStudio). TODOS LOS DERECHOS RESERVADOS.
+Licencia MIT
 
-El acceso a este código fuente se otorga exclusivamente con fines de visualización, evaluación técnica o auditoría. Queda estrictamente prohibida la reproducción, distribución, modificación o cualquier otro uso de este software sin el consentimiento previo y por escrito del autor.
+Copyright (c) 2026 José Rojas (SoftStudio)
+
+Se concede permiso, libre de cargo, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), para tratar el Software sin restricción, incluyendo, sin limitación, los derechos a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y a permitir que se proporcione a las personas a quienes se les suministre el Software, sujeto a las siguientes condiciones:
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 ```
 
 ---
 
 ## 👨‍💻 Autor
 
-**José Rojas** - [@SoftStudio](https://github.com/tuusuario)
+**José Rojas** - (https://github.com/JoseGuillermoRP)
 
 
 - 📧 Email: joserojasdesign92@gmail.com
